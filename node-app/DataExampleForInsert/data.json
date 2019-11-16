@@ -1,0 +1,104 @@
+{
+    "leagues": [
+        {
+            // "id": 1,
+            "name": "Seria A"
+        },
+        {
+            // "id": 2,
+            "name": "Premiere league"
+        }
+    ]
+}
+{
+    "teams": [
+        {
+            // "id": 1,
+            // "leagueId": 1,
+            "name": "FC Juventus"
+        },
+        {
+            // "id": 2,
+            // "leagueId": 1,
+            "name": "AC Milan"
+        }
+        {
+            // "id": 3,
+            // "leagueId": 2,
+            "name": "FC Liverpool"
+        },
+        {
+            // "id": 4,
+            // "leagueId": 2,
+            "name": "Tottenham Hotspur"
+        }
+    ]
+}
+{
+    "players": [
+        {
+            // "id": 1,
+            // "teamId": 1,
+            "name": "Cristiano Ronaldo",
+            "goals": 30,
+            "appearances": 40,
+            "tackle": 17
+        }
+        {
+            // "id": 2,
+            // "teamId": 1,
+            "name": "Leonardo Bonucci",
+            "goals": 2,
+            "appearances": 40,
+            "tackle": 61
+        }
+        {
+            // "id": 3,
+            // "teamId": 2,
+            "name": "Gianluigi Donnarumma",
+            "goals": 20,
+            "appearances": 40,
+            "tackle": 56
+        }
+        {
+            // "id": 4,
+            // "teamId": 2,
+            "name": "Krzysztof Piatek",
+            "goals": 14,
+            "appearances": 40,
+            "tackle": 58
+        }
+        {
+            // "id": 5,
+            // "teamId": 3,
+            "name": "Mohamed Salah",
+            "goals": 14,
+            "appearances": 40,
+            "tackle": 37
+        }
+        {
+            // "id": 6,
+            // "teamId": 3,
+            "name": "Roberto Firmino",
+            "goals": 7,
+            "appearances": 38,
+            "tackle": 63
+        }
+        {
+            // "id": 7,
+            // "teamId": 4,
+            "name": "Son Heung-min",
+            "goals": 12,
+            "appearances": 40,
+            "tackle": 56
+        }
+        {
+            // "id": 8,
+            // "teamId": 4,
+            "name": "Dele Alli",
+            "goals": 15,
+            "appearances": 39,
+            "tackle": 54
+        }
+    ]
+}
