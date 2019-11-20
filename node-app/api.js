@@ -7,12 +7,12 @@ router.get("/leagues", (req, res)=> {
     LeagueService.getAllLeagues()
         .then(leagues => {
           res.status(200);
-            console.log("ssssssss");
+            //console.log("message");
           return res.json({leagues})
         })
         .catch(err => {
             res.status(400);
-            console.log("Sss", err);
+                //console.log("message_1", err);
             return res.send({ error: err.message })
         });
 });
@@ -21,12 +21,12 @@ router.post('/leagues', (req, res) => {
     LeagueService.createLeagues(req.body)
         .then(leagues => {
             res.status(200);
-            console.log("ssssssss");
+                //console.log("message2");
             return res.json({leagues})
         })
         .catch(err => {
             res.status(400);
-            console.log("Sss", err);
+                //console.log("message3", err);
             return res.send({ error: err.message })
         });
 });
